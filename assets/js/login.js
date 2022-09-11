@@ -74,7 +74,7 @@ $(function () {
                 localStorage.setItem('token',res.token);
                 // 4.登录成功跳转至首页
                 setTimeout(function () {
-                    location.href = '/index.html'
+                    location.href = 'index.html'
                 },200);
 
             }
